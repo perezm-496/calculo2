@@ -1,7 +1,8 @@
 #+title: Laboratorio 1
 #+author: M. Perez
-
 #+topic: Rectas y Planos en el Espacio.
+
+Algun texto aqui por favor.
 
 #+begin_ejercicio
   Considere una recta y un plano dados por:

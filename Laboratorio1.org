@@ -12,7 +12,7 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
 
 ** Ejercicio 1
 
-[[https://vimeo.com/574240748][*Ejemplo 1]]*, ahora considere $\mathcal{l}$ la recta que pasa por los puntos $A(2, -1, 3)$ y $B(1, 2, 1)$.
+[[https://vimeo.com/574240748][*Ejemplo 1]]*, ahora considere $L$ la recta que pasa por los puntos $A(2, -1, 3)$ y $B(1, 2, 1)$.
 1. Escriba la ecuación vectorial de la recta.
 2. Escriba las ecuaciones paramétricas de la recta.
 3. Escriba la ecuación simétrica de la recta.
@@ -20,7 +20,7 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
 
 ** Ejercicio 2
 
-  Revise el *[[https://vimeo.com/574240843][Ejemplo 2*]], considere las rectas dadas por:
+  Revise el [[https://vimeo.com/574240843][Ejemplo 2]], considere las rectas dadas por:
   \[
     L_1(t) = (2t + 5, -3t - 7, 4t + 7)
     \qquad
@@ -34,7 +34,7 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
 
 
 ** Ejercicio 3
-Utilice el [[https://vimeo.com/574241043][*Ejemplo]]* para realizar lo siguiente.
+Utilice el [[https://vimeo.com/574241043][Ejemplo]] para realizar lo siguiente.
 
 Escriba una ecuación para la recta que sea perpendicular al plano:
 \[
@@ -44,7 +44,7 @@ que pase por el punto $A(3, -1, 2)$.
 
 ** Ejercicio 4
 
-Utilice como base el [[https://vimeo.com/574241111][*ejemplo*]], para resolver lo siguiente:
+Utilice como base el [[https://vimeo.com/574241111][ejemplo]], para resolver lo siguiente:
 
 Escriba una ecuación para el plano que pasa por los puntos:
   \[
@@ -68,7 +68,7 @@ Considere la recta:
   \[
     l(t) = \mathbf{v} \, t + \mathbf{A}.
   \]
-  y el punto $B$. Calcule la distancia de $A$ a la recta $l$. Su respuesta puede ser planteada de forma similar, y también puede obtener ideas de como abordar el problema, a [[https://vimeo.com/574241301][*el ejemplo*.]]
+  y el punto $B$. Calcule la distancia de $A$ a la recta $l$. Su respuesta puede ser planteada de forma similar, y también puede obtener ideas de como abordar el problema, a [[https://vimeo.com/574241301][el ejemplo.]]
 
 
 ** Problema 2

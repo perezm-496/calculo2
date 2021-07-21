@@ -1,6 +1,8 @@
 #+title: Laboratorio 1
 #+author: M. Perez
 #+topic: Rectas y Planos en el Espacio.
+#+LaTeX_HEADER: \usepackage[x11names]{xcolor}
+#+LaTeX_HEADER: \hypersetup{linktoc = all, colorlinks = true, urlcolor = DodgerBlue4, citecolor = PaleGreen1, linkcolor = black}
 
 Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinculados para revisar el contenido necesario.
 
@@ -12,7 +14,7 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
 
 ** Ejercicio 1
 
-[[https://vimeo.com/574240748][*Ejemplo 1]]*, ahora considere $L$ la recta que pasa por los puntos $A(2, -1, 3)$ y $B(1, 2, 1)$.
+*[[https://vimeo.com/574240748][Ejemplo 1]]*, ahora considere $L$ la recta que pasa por los puntos $A(2, -1, 3)$ y $B(1, 2, 1)$.
 1. Escriba la ecuación vectorial de la recta.
 2. Escriba las ecuaciones paramétricas de la recta.
 3. Escriba la ecuación simétrica de la recta.
@@ -20,7 +22,7 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
 
 ** Ejercicio 2
 
-  Revise el [[https://vimeo.com/574240843][Ejemplo 2]], considere las rectas dadas por:
+  Revise el *[[https://vimeo.com/574240843][Ejemplo 2]]*, considere las rectas dadas por:
   \[
     L_1(t) = (2t + 5, -3t - 7, 4t + 7)
     \qquad
@@ -29,12 +31,12 @@ Resuelva los siguientes ejercicios, puede usar los videos que se encuentran vinc
     L_3(t) = (4 - 4t, 6t + 1, -1 - 8t).
   \]
   Realice lo siguiente:
-1. Determine si $L_1$ es paralela a $L_2$, si $L_1$ es paralela a $L_2$, y si $L_2$ es paralela a $L_3$.
+1. Determine si $L_1$ es paralela a $L_2$, si $L_1$ es paralela a $L_32$, y si $L_2$ es paralela a $L_3$.
 2. Revise el *[[https://vimeo.com/574240895][Ejemplo 3]]* y para los pares de rectas \emph{que no sean paralelas} encuentre si se intersecan, y calcule el punto de intersección.
 
 
 ** Ejercicio 3
-Utilice el [[https://vimeo.com/574241043][Ejemplo]] para realizar lo siguiente.
+Utilice el *[[https://vimeo.com/574241043][Ejemplo]]* para realizar lo siguiente.
 
 Escriba una ecuación para la recta que sea perpendicular al plano:
 \[
@@ -44,13 +46,13 @@ que pase por el punto $A(3, -1, 2)$.
 
 ** Ejercicio 4
 
-Utilice como base el [[https://vimeo.com/574241111][ejemplo]], para resolver lo siguiente:
+Utilice como base el *[[https://vimeo.com/574241111][ejemplo]]*, para resolver lo siguiente:
 
 Escriba una ecuación para el plano que pasa por los puntos:
   \[
     A(0, 2, 1), B(-2, 0, 1), C(3, 0, 1).
   \]
-Determine si los puntos $D(-7, 0, 1)$, $E(2, -5, -1)$.
+Determine si los puntos $D(-7, 0, 1)$, $E(2, -5, -1)$ están sobre el plano anterior.
 
 ** Ejercicio 5
 
@@ -60,16 +62,15 @@ Considere los planos:
 \qquad
 2x + y + 5z = 10
 \]
-1. Encuentre la intersección entre los planos. Puede usar [[https://vimeo.com/574241177][este vídeo]] como guía.
-2. Calcule el ángulo de que se forma entre los planos. Puede ver [[https://vimeo.com/574241229][este vídeo]] como ayuda.
+1. Encuentre la intersección entre los planos. Puede usar *[[https://vimeo.com/574241177][este vídeo]]* como guía.
+2. Calcule el ángulo de que se forma entre los planos. Puede ver *[[https://vimeo.com/574241229][este vídeo*]] como ayuda.
 
 ** Problema 1
 Considere la recta:
   \[
     l(t) = \mathbf{v} \, t + \mathbf{A}.
   \]
-  y el punto $B$. Calcule la distancia de $A$ a la recta $l$. Su respuesta puede ser planteada de forma similar, y también puede obtener ideas de como abordar el problema, a [[https://vimeo.com/574241301][el ejemplo.]]
-
+  y el punto $B$. Calcule la distancia de $A$ a la recta $l$. Su respuesta puede ser planteada de forma similar, y también puede obtener ideas de como abordar el problema, a *[[https://vimeo.com/574241301][el ejemplo]]*.
 
 ** Problema 2
 

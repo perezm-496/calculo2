@@ -1,0 +1,72 @@
+#+title: Laboratorio Funciones Vectoriales
+
+#+author: M. Perez
+#+topic: Funciones Vectoriales 1
+#+LaTeX_HEADER: \usepackage[x11names]{xcolor}
+#+LaTeX_HEADER: \hypersetup{linktoc = all, colorlinks = true, urlcolor = DodgerBlue4, citecolor = PaleGreen1, linkcolor = black}
+
+Resuelva los siguientes ejercicio, utilice los videos adjuntos para obtener referencias y ayuda.
+
+* Funciones Vectoriales
+
+- Vea la descripción [[https://vimeo.com/577688382][aquí.]]
+- Para los siguientes ejercicios puede usar [[eww:https://vimeo.com/577688453][este ejemplo]] de guía.
+
+** Ejercicio 1
+
+Considere $f(t) = \langle \frac{t\,(t-1)}{t}, \frac{\sin t}{t}, e^t - 1 \rangle$.
+
+- Encuentre el dominio de $f(t)$.
+- Calcule $\displaystyle \lim_{t \to 0} f(t)$.
+- Calcule $\displaystyle \frac{df}{dt}$.
+
+** Ejercicio 2
+
+Considere $f(t) = \langle 1 - t^2, \cos t, \sin t \rangle$.
+- Describa la imagen de $f(t)$.
+- Calcule $\int f(t) \, dt$.
+
+* Identidades con funciones vectoriales.
+
+Las propiedades básicas de las funciones de una variable pueden extenderse a funciones vectoriales por ejemplo [[eww:https://vimeo.com/577688576][ puede ver uno aquí]].
+
+** Ejercicio 3
+
+Sea $\mathbf{r(t)}$ una función vectorial demuestre que:
+\[
+\frac{d}{dt} \left\| \mathbf{r} \right\|^2 = 2 \mathbf{r} \cdot \frac{d \mathbf{r}}{dt}.
+\]
+
+
+* Velocidad, Aceleración, Distancia y Posición.
+
+Podemos utilizar funciones vectoriales para describir la dinámica de una partícula.
+
+- [[https://vimeo.com/577688655][Ver definiciones aquí.]]
+
+** Ejercicio 4
+
+Considere una partícula con posición dada por:
+\[
+\mathbf{r}(t) = \langle t, t^2, t \rangle.
+\]
+- Encuentre su velocidad en $t = 2$.
+- Encuentre la rapidez en $t = 2$.
+
+Puede ver un ejemplo relacionado [[https://vimeo.com/577688757][aquí.]]
+
+** Ejercicio 5
+
+Una partícula es sometida a una aceleración de $\mathbf{a}(t) = \langle -1, 2 - t, 3 - t \rangle$. Si su posición inicial es (4, 1, 7), la coordenada z es la altura respecto al piso $z= 0$, y una velocidad inicial de $\langle 0, 0, 3 \rangle$. Realice lo siguiente:
+
+1. Calcule la velocidad para todo tiempo.
+2. Calcule la posición en todo tiempo.
+3. Determine en que momento la partícula toca el suelo.
+
+Use como referencia [[eww:https://vimeo.com/577688816][este vídeo.]]
+
+** Ejercicio 6
+
+Considere una partícula con posición $\mathbf{r}(t) = \langle \sin t, \cos t, t \rangle$. Determine la distancia que ha recorrido cuando llega a una altura de $2m$, la coordenada $z$ modela la altura. 
+
+Puede usar como referencia [[https://vimeo.com/577691594][este vídeo.]]

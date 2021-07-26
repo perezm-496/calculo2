@@ -36,8 +36,6 @@ Sea $\mathbf{r(t)}$ una función vectorial demuestre que:
 \[
 \frac{d}{dt} \left\| \mathbf{r} \right\|^2 = 2 \mathbf{r} \cdot \frac{d \mathbf{r}}{dt}.
 \]
-
-
 * Velocidad, Aceleración, Distancia y Posición.
 
 Podemos utilizar funciones vectoriales para describir la dinámica de una partícula.

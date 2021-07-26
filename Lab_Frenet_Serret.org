@@ -1,0 +1,94 @@
+#+title: Laboratorio -- Triedro de Frenet
+#+author: Michaelle Perez
+#+date: Julio, 2021
+
+* Longitud de Arco y Re-parametrización.
+
+** Re-parametrización.
+
+Dada una curva (función vectorial) $\gamma(t)$, una reparametrización es otra curva $\lambda(t)$ tal que existe un $u:I \to I'$ con $u'(t) >0$ y $\lambda(t) = \gamma(u(t))$. Esencialmente la reparametrización es una curva que recorre los mismos puntos; pero posiblemente con una rapidez distinta.
+
+- [[https://vimeo.com/579505573][Ver Ejemplo.]]
+
+*** Ejercicio 1:
+
+Construya una reparametrización de la recta:
+\[
+L(t) = (t, 2t, 2t)
+\]
+de forma que se recorra con una rápidez constante de $2$.
+
+** Re-parametrización respecto longitud de arco.
+
+Dada una curva es posible reparametrizarla de muchas formas, no todas tienen una interpretación "natural". Una de las que es natural y que nos permite dar una forma "canónica" de una curva, explícitamente para los puntos que recorre y en que orden, es re parametrizar usando la longitud de arco. Recordemos que:
+\[
+s(t) = \int_0^t \left\| \mathbf{v} \right\| \, dt,
+\]
+siempre que $\mathbf{v} \neq \mathbf{0}$. De forma que podemos buscar $t = t(s)$ invirtiendo la relación anterior y haciendo:
+\[
+ \Gamma(s) = \gamma(t(s)).
+\]
+
+- [[https://vimeo.com/579505466][Ver Ejemplo.]]
+
+*** Ejercicio 2
+
+Considere la curva:
+\[
+  \gamma:[0, \infty) \to \mathbb{R}^3 \qquad \gamma(t) = (2t, \cos 3t, \sin 2t).
+\]
+Re parametrice respecto de la longitud de arco.
+
+* Triedro de Frenet-Serret
+
+Las fórmulas básicas de Frenet-Serret son:
+\[
+\frac{dT}{ds} =\kappa N \quad \frac{dN}{ds} = -\kappa T + \tau B \quad \frac{dB}{ds} = - \tau N
+\]
+Cuando no tenemos parametrización respecto de la lóngitud de arco tenemos las siguientes definiciones:
+- Tangente unitario: $T = \frac{1}{\left\| v \right\|} v$.
+- Normal: $N =\frac{1}{\left| v \right|} \frac{dT}{dt}$.
+- Curvatura: $\kappa =\frac{1}{\left| v \right|} \left\| \frac{dT}{dt} \right\|$.
+- Bi-normal: $B = T \times N$.
+- Torsión: $\tau = \frac{1}{\left\| v \right|} \, \left\| \frac{dB}{dt} \right\|$.
+
+*** Ejercicio 3
+
+- [[https://vimeo.com/579505662][Ver Ejemplo]]
+
+Demuestre que para una curva $\gamma(t)$ con $\mathbf{v} \neq \mathbf{0}$ efectivamente:
+\[
+\mathbf{\hat{N}} \cdot \frac{d\mathbf{\hat{N}}}{dt} = 0.
+\]
+
+
+*** Ejercicio 4
+
+- [[https://vimeo.com/579509803][Ver Ejemplo.]]
+
+Considere la curva:
+\[
+\gamma(t) = (t, \cos t, \sin t)
+\]
+Encuentre $\mathbf{\hat{T}}$, $\mathbf{\hat{N}}$, y $\mathbf{\hat{B}}$.
+
+*** Ejercicio 5
+
+Utilice un sistema computacional para dibujar:
+\[
+ \gamma(t) = ( \cos t, \sin t, \sin t + \cos t).
+\]
+- Explique porque $\mathbf{\hat{B}}$ es constante.
+- Utilice un sistema computacional para verificar lo anterior.
+- Verifique que $\gamma(t)$ está sobre el plano $z - y - x = 0$.
+
+*** Ejercicio 6
+
+Considere una partícula que se mueve siguiendo una hélice:
+\[
+\gamma(t) = (at, b\cos t, b \sin t),
+\]
+ donde $a,b > 0$ son constantes.
+- Pruebe que la partícula se mueve con una rapidez constante.
+- Encuentre las componente tangencial y normal de la aceleración de la partícula.
+

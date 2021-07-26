@@ -1,4 +1,4 @@
-#+title: Laboratorio 1
+x#+title: Laboratorio 1
 #+author: M. Perez
 #+topic: Rectas y Planos en el Espacio.
 #+LaTeX_HEADER: \usepackage[x11names]{xcolor}

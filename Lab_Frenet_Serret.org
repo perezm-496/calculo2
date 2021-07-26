@@ -35,7 +35,7 @@ siempre que $\mathbf{v} \neq \mathbf{0}$. De forma que podemos buscar $t = t(s)$
 
 Considere la curva:
 \[
-  \gamma:[0, \infty) \to \mathbb{R}^3 \qquad \gamma(t) = (2t, \cos 3t, \sin 2t).
+  \gamma:[0, \infty) \to \mathbb{R}^3 \qquad \gamma(t) = (2t, \cos 2t, \sin 2t).
 \]
 Re parametrice respecto de la longitud de arco.
 
